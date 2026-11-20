@@ -1,0 +1,55 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio / C / C++
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.exe
+*.dll
+*.lib
+*.exp
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Dependencies and generated state
+packages/
+TestResults/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+data/processed_data/
+instance/
+metrics/
+models_history/
+.gradio/
+*.wav
+*.pkl
+*.tgz
